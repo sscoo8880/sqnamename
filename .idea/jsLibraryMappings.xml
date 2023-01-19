@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{@fortawesome/fontawesome-free, @types/react, @types/react-dom, L2Dwidget, autoload, classnames, font-awesome, inter, jquery, locomotive-scroll, meyer-reset, normalize, react, react-dom, simple-line-icons}" />
+  </component>
+</project>

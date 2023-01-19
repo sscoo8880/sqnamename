@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	  <meta charset="UTF-8">
+
+		<!--  看板娘-->
+		<link rel="stylesheet" href="css/girl.css" type="text/css">
+		<script type="text/javascript"  src="js/L2Dwidget.0.min.js"></script>
+		<script type="text/javascript"  src="js/L2Dwidget.min.js"></script>
+
+	  <title>年度事件</title>
+	  <link rel="stylesheet" href="css/history.css">
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+	</head>
+	<body>
+	<!-- partial:index.partial.html -->
+	<!-- partial:index.partial.html -->
+	<div id="root"></div>
+	<!-- partial -->
+	<script src='https://unpkg.com/react@17/umd/react.development.js'></script>
+	<script src='https://unpkg.com/react-dom@17/umd/react-dom.development.js'></script>
+	<script src='https://unpkg.com/@types/react@17.0.44/index.d.ts'></script>
+	<script src='https://unpkg.com/@types/react-dom@17.0.15/index.d.ts'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/classnames/2.3.1/index.min.js'></script>
+	<script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script><script  src="./script.js"></script>
+
+	<header>
+		<h1>2022年度事件</h1>
+		<p>这是奇幻的一年</p>
+	</header>
+	<div class="container">
+		<ul></ul>
+		<div class="controls">
+			<button onclick="adjustDay(-1)">▲</button>
+			<button onclick="adjustDay(1)">▼</button>
+		</div>
+	</div>
+	<!-- partial -->
+	  <script  src="js/history.js"></script>
+	<script>
+		// 看板娘
+		L2Dwidget.init({"display": {
+				"superSample": 2,
+				"width": 200,
+				"height": 400,
+				"position": "right",
+				"hOffset": 0,
+				"vOffset": 0
+			}
+		});
+	</script>
+
+	</body>
+</html>
